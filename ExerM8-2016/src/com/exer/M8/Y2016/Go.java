@@ -24,8 +24,8 @@ public class Go {
 		char set2[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'V', 'X', 'Y', 'Z',' ' };
 
 		int k = 6 ;
-		printAllKLength(set2, k, pathScrivi);
-
+		//printAllKLength(set2, k, pathScrivi);
+leggiFiltra(pathLeggi, filtro);
 	}
 
 	// The method that prints all possible strings of length k. It is
@@ -66,7 +66,7 @@ public class Go {
 		
 	}
 
-	void leggiFiltra(String path, String filtro) {
+	static void leggiFiltra(String path, String filtro) {
 
 		File file = new File(path);
 		LineIterator it = null;
